@@ -5,10 +5,19 @@ html,body{
     overflow: hidden;
 }
 
-.text {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-size: 50px;
+    
+}
+
+.text {
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    font-family: 'Poppins';
+    font-size: 70px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
