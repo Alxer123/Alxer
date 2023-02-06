@@ -44,6 +44,7 @@ html,body{
     border: none;
     cursor: pointer;
     opacity: 0.6;
+    border-radius: 15; 
     transition: all .2s ease-in-out;
 }
 
