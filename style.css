@@ -25,16 +25,18 @@ html,body{
 
 .text1 {
     position:absolute;
-    bottom: 30px;
-    left: 830px;
+    width: 100%;
+    bottom: 50px;
+    text-align: center;
     font-size: 35px;
     font-family: 'Poppins';
 }
 
 .box {
-    position: relative;
-    bottom: 75px;
-    left: 850px;
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    text-align: center;
 }
 
 .contact-button {
