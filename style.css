@@ -19,5 +19,35 @@ html,body{
     font-size: 70px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 28px 32px;
 
+}
+
+.text1 {
+    position:absolute;
+    bottom: 30px;
+    left: 830px;
+    font-size: 35px;
+    font-family: 'Poppins';
+}
+
+.box {
+    position: relative;
+    bottom: 75px;
+    left: 850px;
+}
+
+.contact-button {
+    font-size: 32px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .2s ease-in-out;
+}
+
+.contact-button:hover {
+    opacity: 1;
+    transform: scale(1.2)
 }
