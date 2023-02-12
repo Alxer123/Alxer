@@ -48,6 +48,7 @@ a {display: inline-block;}
     font-size: 38px;
     padding: 10px;
     background-color: transparent;
+    color: black !important;
     border: none;
     cursor: pointer;
     opacity: 0.6;
