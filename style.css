@@ -60,3 +60,18 @@ a {display: inline-block;}
     opacity: 1;
     transform: scale(1.2)
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+}
+
+.sidebar .image-text img {
+    width: 40px;
+    border-radius: 10px;
+    
+}
