@@ -61,17 +61,25 @@ a {display: inline-block;}
     transform: scale(1.2)
 }
 
-.sidebar {
+.project {
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 250px;
-    padding: 10px 14px;
+    left:0;
+	right:0;
+	top:0;
+	bottom:0;
+    padding: 1em;
 }
 
-.sidebar .image-text img {
-    width: 40px;
-    border-radius: 10px;
-    
+.project-button {
+    font-size: 38px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .2s ease-in-out;
+}
+
+.project-button:hover {
+    opacity: 1;
+    transform: scale(1.2)
 }
