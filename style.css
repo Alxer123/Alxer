@@ -46,6 +46,7 @@ html,body{
 .text {
     background: linear-gradient(90deg, #00dbde, #fc00ff);
     font-family: 'Poppins';
+    font-weight: 500;
     font-size: 70px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
